@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { randomTetromino } '../tetrominos';
+import { randomTetromino } from '../tetrominos';
 
 export const usePlayer = () => {
     const [player, setPlayer] = useState({
